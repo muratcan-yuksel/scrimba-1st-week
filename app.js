@@ -10,7 +10,6 @@ const result= document.querySelector("#total")
 const perPerson= document.querySelector("#per_person")
 //change event to the bill
 function calculate (){
-    console.log(bill.value)
  
     if (tip.value !=0 || tip.value >0 ){
        //calculate the total result 
