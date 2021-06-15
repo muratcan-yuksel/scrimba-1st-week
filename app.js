@@ -13,7 +13,7 @@ function billFunction (){
 function tipFunction(){
     
 if (tip.value !=0 || tip.value >0 ){
-    result.textContent= (bill.value / tip.value).toFixed(2);
+    result.textContent= "$" + (bill.value / tip.value).toFixed(1);
 
 }
 }
